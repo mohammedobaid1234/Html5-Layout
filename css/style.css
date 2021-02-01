@@ -1,0 +1,169 @@
+/*Start Global*/ 
+
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: Arial,Tohama;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+
+/*End Global*/ 
+ul{
+    list-style: none;
+}
+/*Start Header*/
+.main{
+    background-color: #333;
+    color: #DDD;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+/*End Header*/
+
+/*Start Navigation*/
+nav ul li a{
+    color: #333;
+    text-decoration:none;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul{
+    padding: 10px;
+    list-style: none;
+}
+nav{
+    background-color: #DDD; 
+    text-align: center
+}
+nav ul li:after{
+    content: "|"
+}
+nav ul li:last-child:after{
+    content: ""
+} 
+nav ul li a:hover{
+    background-color: #F00;
+    text-decoration: inherit
+}
+/*Start Navigation*/
+
+/*Start article*/
+.post{
+    width: 70%;
+    float: left
+}
+.post article{
+    background: #F6F6F6;
+    border: 1px solid #333;
+    margin: 10px;
+}
+.post article header{
+    background: #ccc;
+    padding: 10px;
+}
+.post section{
+    background: #E2E2E2;
+    padding: 10px;
+}
+.post section details{
+    margin: 10px 0;
+}
+.post section code{
+    display: block;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    max-width: 200px;
+    padding: 10px;
+}
+.figerimg figure{
+    width: 220px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    
+}
+.figerimg figcaption{
+    width: 280px;
+    background: #ddd;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.post section img{
+    width: 280px;
+    height: 220px;
+}
+.post section  input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.post section form button{
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.post section form 
+
+/*End article*/
+
+/*Start Sidebar*/
+aside{
+    width: 30%;
+    float: right;
+}
+aside section{
+    margin: 20px;
+    padding: 10px;
+    background: #EEE;
+    border: 1px solid #ccc;
+}
+aside section h3{
+    background: #D1D1D1;
+    padding: 10px;
+}
+aside section ul{
+    margin-top: 10px;
+}
+aside section ul li {
+    line-height: 1.8;
+}
+aside {
+    width: 30%;
+    float: right;
+}
+/*End Sidebar*/
+
+/*Start main*/
+main{
+    padding: 20px;
+    background: #EEE;
+}
+main p{
+    text-align: center;
+}
+main p span{
+    color: #666;
+    font-weight: bold
+}
+/*End main*/
+
+/*Start Footer*/
+footer{
+    background: #333;
+    color: #DDD;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/*End Footer*/
